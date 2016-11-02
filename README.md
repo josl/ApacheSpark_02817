@@ -60,6 +60,13 @@ Compute the following things using Spark:
 2. What are the 10 most common wifi names? (ssid)
 3. What are the 10 longest wifi names? (again, ssid)
 
+## First steps
+
+- make vagrant # Boots Vagrant based on the Vagrantfile (very slow...)
+- Open http://127.0.0.1:8001/tree#notebooks and start a Terminal
+- run: apt-get update ; apt-get install git-all
+- git clone https://github.com/josl/ApacheSpark_02817
+
 ## General Comands
 
 It's recommended to create a virtual environment (conda env preffered)
