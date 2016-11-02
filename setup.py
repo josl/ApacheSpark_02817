@@ -6,7 +6,8 @@
 
 # Licensed under the MIT license:
 # http://www.opensource.org/licenses/MIT-license
-# Copyright (c) 2016, Jose L. Bellod Cisneros & Kosai Al-Nakeeb <bellod.cisneros@gmail.com & kosai@cbs.dtu.dk>
+# Copyright (c) 2016, Jose L. Bellod Cisneros & Kosai Al-Nakeeb
+# <bellod.cisneros@gmail.com & kosai@cbs.dtu.dk>
 
 from setuptools import setup, find_packages
 from apache_spark import __version__
@@ -28,8 +29,8 @@ setup(
     version=__version__,
     description='Computational tools for Big Data (02807) - Apache Spark',
     long_description='''
-Computational tools for Big Data (02807) - Apache Spark
-''',
+        Computational tools for Big Data (02807) - Apache Spark
+    ''',
     keywords='spark pyspark euler graphs',
     author='Jose L. Bellod Cisneros & Kosai Al-Nakeeb',
     author_email='bellod.cisneros@gmail.com & kosai@cbs.dtu.dk',
@@ -50,7 +51,8 @@ Computational tools for Big Data (02807) - Apache Spark
     include_package_data=False,
     install_requires=[
         # add your dependencies here
-        # remember to use 'package-name>=x.y.z,<x.y+1.0' notation (this way you get bugfixes)
+        # remember to use 'package-name>=x.y.z,<x.y+1.0' notation (this way you
+        # get bugfixes)
     ],
     extras_require={
         'tests': tests_require,
